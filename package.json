@@ -1,0 +1,31 @@
+{
+  "name": "appium-webdriverio",
+  "version": "1.0.0",
+  "description": "POC using Appium with webdriverio",
+  "main": "index.js",
+  "scripts": {
+    "android": "npx wdio config/wdio.android.conf.js",
+    "ios": "npx wdio config/wdio.ios.conf.js"
+  },
+  "author": "Marco Olsen",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^7.14.1",
+    "appium": "^2.0.0-beta.71",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/register": "^7.16.0",
+    "@wdio/appium-service": "^7.14.1",
+    "@wdio/browserstack-service": "^7.16.10",
+    "@wdio/local-runner": "^7.14.1",
+    "@wdio/mocha-framework": "^7.14.1",
+    "@wdio/spec-reporter": "^7.14.1",
+    "appium-uiautomator2-driver": "^2.29.1",
+    "eslint": "7.32.0",
+    "eslint-plugin-wdio": "^7.4.2"
+  }
+}
